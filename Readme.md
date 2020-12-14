@@ -1,12 +1,21 @@
 ![哈哈](https://github.com/simon824/janusgraph.cn/blob/main/images/68747470733a2f2f6a616e757367726170682e6f72672f696d672f6a616e757367726170682e706e67.png?raw=true)
 
-有收获的话右上角 star🌟 一下吧！
-
-# 分布式图数据库 JanusGraph 中文社区
 - 社区讨论：https://github.com/simon824/janusgraph.cn/discussions
 - 博客：
 - 公众号：
-- 微信群：
+- 微信群：加微信 shirning，备注 janus
+
+有收获的话右上角 star🌟 一下吧！
+
+# 分布式图数据库 JanusGraph 中文社区
+涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
+
+
+
+- [JanusGraph 官方文档翻译](https://github.com/simon824/janusgraph.cn#janusgraph-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
+- [JanusGraph 实践]()
+- [Gremlin 官方文档翻译](https://github.com/simon824/janusgraph.cn#gremlin-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
+
 
 # JanusGraph 官方文档翻译
 
@@ -76,6 +85,7 @@
 <br />
 <br />
 
+# JanusGraph 实践文章
 
 # Gremlin 官方文档翻译
 
