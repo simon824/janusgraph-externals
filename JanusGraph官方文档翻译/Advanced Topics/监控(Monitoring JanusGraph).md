@@ -1,7 +1,4 @@
 # Monitoring JanusGraph
-
-<a name="monitoring-janusgraph"></a>
-# Monitoring JanusGraph
 <a name="metrics-in-janusgraph"></a>
 ## Metrics in JanusGraph
 JanusGraph supports [Metrics](https://dropwizard.io/). JanusGraph can measure the following:
