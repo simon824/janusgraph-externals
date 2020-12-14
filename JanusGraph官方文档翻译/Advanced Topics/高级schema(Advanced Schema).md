@@ -14,9 +14,9 @@ Static vertex labels are a method of controlling the data lifecycle and useful w
 ## Edge and Vertex TTL
 Edge and vertex labels can be configured with a **time-to-live (TTL)**. Edges and vertices with such labels will automatically be removed from the graph when the configured TTL has passed after their initial creation. TTL configuration is useful when loading a large amount of data into the graph that is only of temporary use. Defining a TTL removes the need for manual clean up and handles the removal very efficiently. For example, it would make sense to TTL event edges such as user-page visits when those are summarized after a certain period of time or simply no longer needed for analytics or operational query processing.<br /><br />可以使用生存时间（TTL）来配置边缘和顶点标签。初始创建后，已配置的TTL经过时，带有此类标签的边和顶点将自动从图形中删除。当将大量数据仅临时使用地加载到图形中时，TTL配置很有用。定义TTL消除了手动清理的需要，并非常有效地处理了删除操作。例如，对于TTL事件边缘（例如用户页面访问），如果在一定时间后或不再需要进行分析或操作查询处理的情况下进行汇总，将是有意义的。<br /><br />The following storage backends support edge and vertex TTL.
 
-- Cassandra<br /><br />
-- HBase<br /><br />
-- BerkeleyDB - supports only hour-discrete TTL, thus the minimal TTL is one hour.<br /><br />
+- Cassandra
+- HBase
+- BerkeleyDB - supports only hour-discrete TTL, thus the minimal TTL is one hour.
 <a name="edge-ttl"></a>
 ### Edge TTL
 Edge TTL is defined on a per-edge label basis, meaning that all edges of that label have the same time-to-live. Note that the backend must support cell level TTL. Currently only Cassandra, HBase and BerkeleyDB support this.<br /><br />边缘TTL是基于每个边缘标签定义的，这意味着该标签的所有边缘都具有相同的生存时间。请注意，后端必须支持单元级TTL。目前，只有Cassandra，HBase和BerkeleyDB支持此功能。
