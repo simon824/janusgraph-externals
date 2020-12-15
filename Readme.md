@@ -10,11 +10,13 @@
 # 分布式图数据库 JanusGraph 中文社区
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
 
-
+<details>
+<summary>目录</summary>
 
 - [JanusGraph 官方文档翻译](https://github.com/simon824/janusgraph.cn#janusgraph-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
 - [JanusGraph 实践]()
 - [Gremlin 官方文档翻译](https://github.com/simon824/janusgraph.cn#gremlin-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
+</details>
 
 
 # JanusGraph 官方文档翻译
