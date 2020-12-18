@@ -1,10 +1,16 @@
-![哈哈](https://github.com/simon824/janusgraph.cn/blob/main/images/68747470733a2f2f6a616e757367726170682e6f72672f696d672f6a616e757367726170682e706e67.png?raw=true)
+![JanusGraph 中文社区](https://github.com/simon824/janusgraph.cn/blob/main/images/68747470733a2f2f6a616e757367726170682e6f72672f696d672f6a616e757367726170682e706e67.png?raw=true)
 
 - 社区讨论：https://github.com/simon824/janusgraph.cn/discussions
 - 博客：
 - 微信群：加微信 shirning，备注 janus
 
-有收获的话右上角 star🌟 一下吧！
+有收获的话 star🌟 一下吧！
+
+[![janusgraph.cn](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/simon824/janusgraph.cn)
+[![GitHub stars](https://img.shields.io/github/stars/simon824/janusgraph.cn.svg?label=Stars)](https://github.com/simon824/janusgraph.cn/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/simon824/janusgraph.cn.svg?label=Watchers)](https://github.com/simon824/janusgraph.cn/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/simon824/janusgraph.cn.svg?label=Forks)](https://github.com/simon824/janusgraph.cn/fork)
+[![GitHub followers](https://img.shields.io/github/followers/simon824.svg?label=Followers)](https://github.com/sorenduan)
 
 # 分布式图数据库 JanusGraph 中文社区
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
