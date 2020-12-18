@@ -2,7 +2,6 @@
 
 - 社区讨论：https://github.com/simon824/janusgraph.cn/discussions
 - 博客：
-- 公众号：
 - 微信群：加微信 shirning，备注 janus
 
 有收获的话右上角 star🌟 一下吧！
@@ -11,6 +10,7 @@
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
 
 <details>
+
 <summary>目录</summary>
 
 - [JanusGraph 官方文档翻译](https://github.com/simon824/janusgraph.cn#janusgraph-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
@@ -69,7 +69,7 @@
    - [批写入 (Bulk Loading)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%89%B9%E5%86%99%E5%85%A5(Bulk%20Loading).md)
    - [图分区 (Graph Partitioning)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E5%9B%BE%E5%88%86%E5%8C%BA%20(Graph%20Partitioning).md)
    - [数据类型和属性序列化器配置 (Datatype and Attribute Serializer Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%B1%9E%E6%80%A7%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8%E9%85%8D%E7%BD%AE.md) 
-   - [Hadoop-Gremlin 应用 (JanusGraph with TinkerPop’s Hadoop-Gremlin)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/JanusGraph%20with%20TinkerPop%E2%80%99s%20Hadoop-Gremlin.md)
+   - [Hadoop-Gremlin 应用 (JanusGraph with TinkerPop’s Hadoop-Gremlin)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/Hadoop-Gremlin%E5%BA%94%E7%94%A8(JanusGraph%20with%20TinkerPop%E2%80%99s%20Hadoop-Gremlin).md)
    - [监控 (Monitoring JanusGraph)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E7%9B%91%E6%8E%A7(Monitoring%20JanusGraph).md)
    - [从Titan迁移数据 (Migrating from Titan)](https://docs.janusgraph.org/advanced-topics/migrating/)
    - [数据模型 (JanusGraph Data Model)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B(JanusGraph%20Data%20Model).md)
