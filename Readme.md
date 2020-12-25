@@ -10,7 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/simon824/janusgraph.cn.svg?label=Stars)](https://github.com/simon824/janusgraph.cn/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/simon824/janusgraph.cn.svg?label=Watchers)](https://github.com/simon824/janusgraph.cn/watchers)
 [![GitHub forks](https://img.shields.io/github/forks/simon824/janusgraph.cn.svg?label=Forks)](https://github.com/simon824/janusgraph.cn/fork)
-[![GitHub followers](https://img.shields.io/github/followers/simon824.svg?label=Followers)](https://github.com/sorenduan)
+[![GitHub followers](https://img.shields.io/github/followers/simon824.svg?label=Followers)](https://github.com/simon824)
 
 # 分布式图数据库 JanusGraph 中文社区
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
@@ -26,7 +26,7 @@
 
 
 # JanusGraph 官方文档翻译
->带有中文后缀的即为还未翻译的文章，链接指向官网英文原文，有兴趣欢迎贡献！
+>带中文后缀的为还未翻译的文章，链接指向官网英文原文，有兴趣欢迎贡献！
 - [Introduction](https://docs.janusgraph.org/) 介绍
 - 开始 (Getting Started)
    - [Installation](https://docs.janusgraph.org/getting-started/installation/) 安装

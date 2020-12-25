@@ -70,7 +70,7 @@ Note, that the TTL of a vertex label can be modified but it might take some time
 
 请注意，可以修改顶点标签的TTL，但此更改可能需要一些时间才能传播到所有正在运行的JanusGraph实例，这意味着可以将两个不同的TTL临时用于同一标签。
 
-## Multi-Properties 多属性
+## 多属性 Multi-Properties（为属性添加属性）
 As discussed in [Schema and Data Modeling](https://docs.janusgraph.org/basics/schema/), JanusGraph supports property keys with SET and LIST cardinality. Hence, JanusGraph supports multiple properties with the same key on a single vertex. Furthermore, JanusGraph treats properties similarly to edges in that single-valued property annotations are allowed on properties as shown in the following example.
 
 如架构和数据建模中所述，JanusGraph支持具有SET和LIST基数的属性键。因此，JanusGraph在单个顶点上使用相同的键支持多个属性。此外，JanusGraph对待属性的方式与边缘类似，因为在属性上允许使用单值属性注释，如以下示例所示。
