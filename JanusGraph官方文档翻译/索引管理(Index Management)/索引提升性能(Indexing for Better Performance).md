@@ -294,7 +294,7 @@ This example builds a vertex-centric index which indexes `battled` edges in both
 
 在此示例中，以顶点为中心的索引是在两个方向上构建的，这意味着沿索引的边界可以在 IN 和 OUT 方向上沿受时间限制的遍历遍历。 JanusGraph 将在`battled`边的内外顶点均保持以顶点为中心的索引。或者，可以将索引定义为仅适用于 OUT 方向，这样可以加快从大力神到怪物的遍历，但不能反向。这仅需要维护一个索引，因此只需一半的索引维护和存储成本。最后两个参数是索引的排序顺序以及用于索引的属性键列表。排序顺序是可选的，默认为升序（即 Order.ASC ）。属性键列表必须为非空，并定义用于索引给定标签边缘的键。可以使用多个键定义以顶点为中心的索引。
 
-```
+```java
 graph.tx().rollback()  //Never create new indexes while a transaction is active
 mgmt = graph.openManagement()
 time = mgmt.getPropertyKey('time')
@@ -314,7 +314,7 @@ This example extends the schema by a `rating` property on `battled` edges and bu
 
 本示例通过在战斗边缘上的评级属性扩展架构，并构建一个以顶点为中心的索引，该索引通过评级和时间以降序对外出方向上的战斗边缘进行索引。请注意，指定属性键的顺序很重要，因为以顶点为中心的索引是前缀索引。这意味着，首先通过评分，然后通过时间索引来索引战斗的边缘。
 
-```
+```java
 h = g.V().has('name', 'hercules').next()
 g.V(h).outE('battled').property('rating', 5.0) //Add some rating properties
 

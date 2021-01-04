@@ -58,7 +58,7 @@ Mixed indexes only support a subset of the data types that JanusGraph supports. 
 
 混合索引仅支持JanusGraph支持的数据类型的子集。有关当前列表，请参见混合索引数据类型。另外，混合索引当前不支持SET或LIST基数的属性键。
 
-###批量加载速度  Batch Loading Speed 
+### 批量加载速度  Batch Loading Speed 
 JanusGraph provides a batch loading mode that can be enabled through the [graph configuration](https://docs.janusgraph.org/basics/configuration-reference/). However, this batch mode only facilitates faster loading into the storage backend, it does not use storage backend specific batch loading techniques that prepare the data in memory for disk storage. As such, batch loading in JanusGraph is currently slower than batch loading modes provided by single machine databases. [Bulk Loading](https://docs.janusgraph.org/advanced-topics/bulk-loading/) contains information on speeding up batch loading in JanusGraph.
 
 Another limitation related to batch loading is the failure to load millions of edges into a single vertex at once or in a short time of period. Such **supernode loading** can fail for some storage backends. This limitation also applies to dense index entries.
