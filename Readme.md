@@ -1,4 +1,5 @@
 ![JanusGraph 中文社区](https://github.com/simon824/janusgraph.cn/blob/main/images/68747470733a2f2f6a616e757367726170682e6f72672f696d672f6a616e757367726170682e706e67.png?raw=true)
+[JanusGraph: an open-source, distributed graph database](https://github.com/JanusGraph/janusgraph)
 
 - 社区讨论：[Discussions](https://github.com/simon824/janusgraph.cn/discussions)
 - 博客：[CSDN](https://blog.csdn.net/weixin_46892441)
