@@ -25,14 +25,13 @@
 </details>
 
 # JanusGraph Q&A
-
 - [会自动创建点中心索引，那是不是就不用用户自定义了？](https://github.com/simon824/janusgraph.cn/discussions/3)
 - [如果我在边添加属性，janusgraph 是否会自动创建局部索引？ 我不需要定义 schema 吗？](https://github.com/simon824/janusgraph.cn/discussions/3)
 - [点中心索引存在哪里？原理是怎么样的？](https://github.com/simon824/janusgraph.cn/discussions/3)
 - [JanusGraph 的 profile() 无法显示点中心索引 (vertex-centic index) 是否有被应用?](https://github.com/simon824/janusgraph.cn/discussions/2)
 - [JanusGraph 导致内存溢出的问题](https://github.com/simon824/janusgraph.cn/discussions/5)
+- [我想提问🙋‍♂️🙋](https://github.com/simon824/janusgraph.cn/discussions)
 
-[我有问题🙋‍♂️](https://github.com/simon824/janusgraph.cn/discussions)
 
 # JanusGraph 官方文档翻译
 >带中文后缀的为还未翻译的文章，链接指向官网英文原文，有兴趣欢迎贡献！
