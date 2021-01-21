@@ -104,8 +104,8 @@
 # JanusGraph 实践
 - [JanusGraph 可视化项目](https://github.com/fenglex/janusgraph-visualization)
 - [JanusGraph 源码解析文章](https://github.com/yoylee/janusgraph-source-article)
-- [janusgraph 批量导数据](https://github.com/dengziming/janusgraph-util)
-- [janusgraph 集成 prometheus 指标监控](https://github.com/gguttikonda/janusgraph-prometheus)
+- [JanusGraph 批量导数据](https://github.com/dengziming/janusgraph-util)
+- [JanusGraph 集成 Prometheus 指标监控](https://github.com/gguttikonda/janusgraph-prometheus)
 - [JanusGraph docker 镜像](https://github.com/JanusGraph/janusgraph-docker)
 
 
