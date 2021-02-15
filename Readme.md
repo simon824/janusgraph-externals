@@ -44,9 +44,9 @@
    - [Basic Usage](https://docs.janusgraph.org/getting-started/basic-usage/)  基本使用
    - [Architectural Overview](https://docs.janusgraph.org/getting-started/architecture/) 架构总览
 - 基础 (JanusGraph Basics)
-   - [Configuration](https://docs.janusgraph.org/basics/configuration/) 配置
+   - [配置(Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E9%85%8D%E7%BD%AE(Configuration).md) 
    - [模式与数据建模(Schema and Data Modeling)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1(Schema%20and%20Data%20Modeling).md) 
-   - [Gremlin Query Language](https://docs.janusgraph.org/basics/gremlin/) gremlin查询语言
+   - [gremlin查询语言(Gremlin Query Language)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/Gremlin%E6%9F%A5%E8%AF%A2%E8%AF%AD%E8%A8%80(Gremlin%20Query%20Language).md) 
    - [JanusGraph Server](https://docs.janusgraph.org/basics/server/) janusgraph服务
    - [部署方案(Deployment Scenarios)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%88(Deployment%20Scenarios).md) 
    - [ConfiguredGraphFactory](https://docs.janusgraph.org/basics/configured-graph-factory/) 配置工厂
