@@ -12,6 +12,34 @@
 [![GitHub forks](https://img.shields.io/github/forks/simon824/janusgraph.cn.svg?label=Forks)](https://github.com/simon824/janusgraph.cn/fork)
 [![GitHub followers](https://img.shields.io/github/followers/simon824.svg?label=Followers)](https://github.com/simon824)
 
+**特别鸣谢以下 Contributors**
+[ (如何成为社区 Contributor ?)](https://github.com/simon824/janusgraph.cn/blob/main/contributor.md)
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ray1991a">
+      </a>
+      <a href="https://github.com/ray1991a">ray1991a</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/beiluve">
+      </a>
+      <a href="https://github.com/beiluve">beiluve</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mengbd">
+      </a>
+      <a href="https://github.com/mengbd">mengbd</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/simon824">
+      </a>
+      <a href="https://github.com/simon824">simon824</a>
+    </td>
+  </tr>
+</table>
+
 # 分布式图数据库 JanusGraph 中文社区
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
 
