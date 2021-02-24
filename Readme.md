@@ -17,6 +17,10 @@
 
 <table>
   <tr>
+            <td align="center">
+      <a href="https://github.com/akiii-G">
+      </a>
+      <a href="https://github.com/akiii-G">akiii-G</a>
     <td align="center">
       <a href="https://github.com/ray1991a">
       </a>
@@ -37,6 +41,9 @@
       </a>
       <a href="https://github.com/simon824">simon824</a>
     </td>
+
+    </td>
+    
   </tr>
 </table>
 
