@@ -2,11 +2,11 @@
 
 [Gremlin](https://tinkerpop.apache.org/gremlin.html) is JanusGraph’s query language used to retrieve data from and modify data in the graph. Gremlin is a path-oriented language which succinctly expresses complex graph traversals and mutation operations. Gremlin is a [functional language](https://en.wikipedia.org/wiki/Functional_programming) whereby traversal operators are chained together to form path-like expressions. For example, "from Hercules, traverse to his father and then his father’s father and return the grandfather’s name."
 
-[Gremlin](https://tinkerpop.apache.org/gremlin.html) 是 JanusGraph 的查询语言，用于从图中检索数据和修改图中的数据。Gremlin 是一种面向路径的语言，它可以简洁地表达复杂的图遍历和图更改操作。Gremlin 是一个函数式语言，使得图遍历运算符被连接在一起，形成一个类似路径的表达式。例如，“从大力神出发，先走到他的父亲，再走到他父亲的父亲，然后返回其祖父的名字。”
+[Gremlin](https://tinkerpop.apache.org/gremlin.html) 是 JanusGraph 的查询语言，用于从图中检索数据和修改图中的数据。Gremlin 是一种面向路径的语言，它可以简洁地表达复杂的图遍历和图更改操作。Gremlin 是一个[函数式语言](https://en.wikipedia.org/wiki/Functional_programming)，使得图遍历运算符被连接在一起，形成一个类似路径的表达式。例如，“从大力神出发，先走到他的父亲，再走到他父亲的父亲，然后返回其祖父的名字。”
 
 Gremlin is a component of [Apache TinkerPop](https://tinkerpop.apache.org/). It is developed independently from JanusGraph and is supported by most graph databases. By building applications on top of JanusGraph through the Gremlin query language, users avoid vendor-lock in because their application can be migrated to other graph databases supporting Gremlin.
 
-Gremlin 是 [Apache TinkerPop](https://tinkerpop.apache.org/) 的一个组件。它独是立于 JanusGraph 开发的，而且被大多数图数据库支持。使用 Gremlin 查询语言基于 JanusGraph 构建应用，用户可以避免被图数据库供应商套牢，因为他们的应用可以迁移到其它支持 Gremlin 的图数据。
+Gremlin 是 [Apache TinkerPop](https://tinkerpop.apache.org/) 的一个组件。它是独立于 JanusGraph 开发的，而且被大多数图数据库支持。使用 Gremlin 查询语言基于 JanusGraph 构建应用，用户可以避免被图数据库供应商套牢，因为他们的应用可以迁移到其它支持 Gremlin 的图数据。
 
 This section is a brief overview of the Gremlin query language. For more information on Gremlin, refer to the following resources:
 
@@ -48,7 +48,7 @@ In addition to these resources, [Connecting to JanusGraph](https://docs.janusgra
 
 A Gremlin query is a chain of operations/functions that are evaluated from left to right. A simple grandfather query is provided below over the *Graph of the Gods* dataset discussed in [Getting Started](https://docs.janusgraph.org/getting-started/installation/).
 
-Gremlin 查询是一个从左到右计算的操作/函数链。以下是在[起步](https://docs.janusgraph.org/getting-started/installation/)中讨论的一个简单的查询祖父的示例：
+Gremlin 查询是一个从左到右计算的操作/函数链。以下是在[起步](https://docs.janusgraph.org/getting-started/installation/)章节中基于*众神图谱*讨论的一个简单的查询祖父的示例：
 
 ```groovy
 gremlin> g.V().has('name', 'hercules').out('father').out('father').values('name')
@@ -77,7 +77,7 @@ The query above can be read:
 
 1. `has('name', 'hercules')`: 将节点过滤为 `name` 属性为 `hercules` 的节点（只有一个）
 
-1. `out('father')`: 从`hercules`开始遍历边为`father`的外向指出的节点
+1. `out('father')`: 从'hercules'开始遍历边为`father`的外向指出的节点
 
 1. `out('father')`: 从'hercules'的父亲的节点(即Jupiter)开始遍历边为`father`的外向指出的节点
 
@@ -102,7 +102,7 @@ gremlin> g.V().has('name', 'hercules').out('father').out('father').values('name'
 
 For a sanity check, it is usually good to look at the properties of each return, not the assigned long id.
 
-对于健全性检查，通常最好查看每次return结果的属性，而不是默认分配的long类型id。
+对于健全性检查，通常最好查看每次返回的结果的属性，而不是默认分配的long类型id。
 
 ```groovy
 gremlin> g.V().has('name', 'hercules').values('name')
