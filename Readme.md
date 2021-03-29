@@ -54,15 +54,21 @@
 # 分布式图数据库 JanusGraph 中文社区
 涉及技术包括:  [JanusGraph](https://docs.janusgraph.org/) | [TinkerPop (Gremlin)](https://tinkerpop.apache.org/docs/current/) | [HBase](https://hbase.apache.org/book.html)  | [ElasticSearch](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)  | [Spark GraphX](http://spark.apache.org/docs/latest/graphx-programming-guide.html)
 
-<details>
+**目前开源的内容：**
 
-<summary>目录</summary>
+1. JanusGraph 集成 Spark GraphX [janusgraph-graphx]
 
+    此次开源的为初级版本 ( janusx-0.1.0 ) ，Spark 通过解析 JanusGraph 底层 HFile 文件并反序列化 JanusGraph 点边结构生成 RDD，欢迎开发者一起测试和升级迭代。（适配 janusgraph-0.5.2 ，其他版本需要测试）
+   
+2. [JanusGraph 官方文档翻译](https://github.com/simon824/janusgraph.cn#janusgraph-doc)
+
+3. 更多内容敬请期待！（比如：Spark 通过生成 HFile 写入 JanusGraph、可视化查询平台等等，也欢迎开发者贡献！）
+
+**其他内容**
 - [JanusGraph Q&A](https://github.com/simon824/janusgraph.cn#janusgraph-qa)
-- [JanusGraph 官方文档翻译](https://github.com/simon824/janusgraph.cn#janusgraph-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
-- [JanusGraph 实践]()
+- [JanusGraph 实践相关项目]()
 - [Gremlin 相关](https://github.com/simon824/janusgraph.cn#gremlin-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91)
-</details>
+
 
 
 # JanusGraph Q&A
@@ -83,25 +89,25 @@
    - [Basic Usage](https://docs.janusgraph.org/getting-started/basic-usage/)  基本使用
    - [Architectural Overview](https://docs.janusgraph.org/getting-started/architecture/) 架构总览
 - 基础 (JanusGraph Basics)
-   - [配置(Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E9%85%8D%E7%BD%AE(Configuration).md) 
-   - [模式与数据建模(Schema and Data Modeling)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1(Schema%20and%20Data%20Modeling).md) 
-   - [gremlin查询语言(Gremlin Query Language)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/Gremlin%E6%9F%A5%E8%AF%A2%E8%AF%AD%E8%A8%80(Gremlin%20Query%20Language).md) 
+   - [配置(Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E9%85%8D%E7%BD%AE(Configuration).md) 
+   - [模式与数据建模(Schema and Data Modeling)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1(Schema%20and%20Data%20Modeling).md) 
+   - [gremlin查询语言(Gremlin Query Language)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/Gremlin%E6%9F%A5%E8%AF%A2%E8%AF%AD%E8%A8%80(Gremlin%20Query%20Language).md) 
    - [JanusGraph Server](https://docs.janusgraph.org/basics/server/) janusgraph服务
-   - [部署方案(Deployment Scenarios)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%88(Deployment%20Scenarios).md) 
+   - [部署方案(Deployment Scenarios)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%88(Deployment%20Scenarios).md) 
    - [ConfiguredGraphFactory](https://docs.janusgraph.org/basics/configured-graph-factory/) 配置工厂
    - [Things to Consider in a Multi-Node JanusGraph Cluster](https://docs.janusgraph.org/basics/multi-node/) 多节点JanusGraph群集中要考虑的事项
-   - [事务(Transactions)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E4%BA%8B%E5%8A%A1(Transactions).md)
-   - [缓存(JanusGraph cache)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E7%BC%93%E5%AD%98(JanusGraph%20cache).md) 
+   - [事务(Transactions)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E4%BA%8B%E5%8A%A1(Transactions).md)
+   - [缓存(JanusGraph cache)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E7%BC%93%E5%AD%98(JanusGraph%20cache).md) 
    - [Transaction Log](https://docs.janusgraph.org/basics/transaction-log/) 事务日志
    - [Configuration Reference](https://docs.janusgraph.org/basics/configuration-reference/) 配置参考
    - [Config Example](https://docs.janusgraph.org/basics/example-config/) 配置示例
-   - [常见问题(Common Questions)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(Common%20Questions).md)
-   - [技术局限(Technical Limitations)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E5%9F%BA%E7%A1%80(JanusGraph%20Basics)/%E6%8A%80%E6%9C%AF%E5%B1%80%E9%99%90(Technical%20Limitations).md) 
+   - [常见问题(Common Questions)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(Common%20Questions).md)
+   - [技术局限(Technical Limitations)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/janusgraph-basics/%E6%8A%80%E6%9C%AF%E5%B1%80%E9%99%90(Technical%20Limitations).md) 
 - 索引管理 (Index Management)
-   - [索引提升性能(Indexing for Better Performance)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E7%B4%A2%E5%BC%95%E7%AE%A1%E7%90%86(Index%20Management)/%E7%B4%A2%E5%BC%95%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD(Indexing%20for%20Better%20Performance).md) 
-   - [索引的生命周期(Index Lifecycle)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E7%B4%A2%E5%BC%95%E7%AE%A1%E7%90%86(Index%20Management)/%E7%B4%A2%E5%BC%95%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F(Index%20Lifecycle).md) 
-   - [重索引(Reindexing)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E7%B4%A2%E5%BC%95%E7%AE%A1%E7%90%86(Index%20Management)/%E9%87%8D%E7%B4%A2%E5%BC%95(Reindexing).md) 
-   - [删索引(Removal)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E7%B4%A2%E5%BC%95%E7%AE%A1%E7%90%86(Index%20Management)/%E5%88%A0%E7%B4%A2%E5%BC%95(Removal).md) 
+   - [索引提升性能(Indexing for Better Performance)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/index-management/%E7%B4%A2%E5%BC%95%E6%8F%90%E5%8D%87%E6%80%A7%E8%83%BD(Indexing%20for%20Better%20Performance).md) 
+   - [索引的生命周期(Index Lifecycle)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/index-management/%E7%B4%A2%E5%BC%95%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F(Index%20Lifecycle).md) 
+   - [重索引(Reindexing)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/index-management/%E9%87%8D%E7%B4%A2%E5%BC%95(Reindexing).md) 
+   - [删索引(Removal)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/index-management/%E5%88%A0%E7%B4%A2%E5%BC%95(Removal).md) 
 - 存储后端 (Storage Backends)
    - [Introduction](https://docs.janusgraph.org/storage-backend/)
    - [Apache Cassandra](https://docs.janusgraph.org/storage-backend/cassandra/)
@@ -119,17 +125,17 @@
    - [Apache Solr](https://docs.janusgraph.org/index-backend/solr/)
    - [Apache Lucene](https://docs.janusgraph.org/index-backend/lucene/)
 - 进阶主题 (Advanced Topics)
-   - [高级schema (Advanced Schema)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E9%AB%98%E7%BA%A7schema(Advanced%20Schema).md)
-   - [最终一致的存储后端 (Eventually-Consistent Storage Backends)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%9C%80%E7%BB%88%E4%B8%80%E8%87%B4%E7%9A%84%E5%AD%98%E5%82%A8%E5%90%8E%E7%AB%AF(Eventually-Consistent%20Storage%20Backends).md)
-   - [异常与恢复 (Failure & Recovery)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E5%BC%82%E5%B8%B8%E4%B8%8E%E6%81%A2%E5%A4%8D(Failure%20%26%20Recovery).md)
-   - [批写入 (Bulk Loading)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%89%B9%E5%86%99%E5%85%A5(Bulk%20Loading).md)
-   - [图分区 (Graph Partitioning)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E5%9B%BE%E5%88%86%E5%8C%BA%20(Graph%20Partitioning).md)
-   - [数据类型和属性序列化器配置 (Datatype and Attribute Serializer Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%B1%9E%E6%80%A7%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8%E9%85%8D%E7%BD%AE.md) 
-   - [Hadoop-Gremlin 应用 (JanusGraph with TinkerPop’s Hadoop-Gremlin)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/Hadoop-Gremlin%E5%BA%94%E7%94%A8(JanusGraph%20with%20TinkerPop%E2%80%99s%20Hadoop-Gremlin).md)
-   - [监控 (Monitoring JanusGraph)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E7%9B%91%E6%8E%A7(Monitoring%20JanusGraph).md)
+   - [高级schema (Advanced Schema)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E9%AB%98%E7%BA%A7schema(Advanced%20Schema).md)
+   - [最终一致的存储后端 (Eventually-Consistent Storage Backends)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E6%9C%80%E7%BB%88%E4%B8%80%E8%87%B4%E7%9A%84%E5%AD%98%E5%82%A8%E5%90%8E%E7%AB%AF(Eventually-Consistent%20Storage%20Backends).md)
+   - [异常与恢复 (Failure & Recovery)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E5%BC%82%E5%B8%B8%E4%B8%8E%E6%81%A2%E5%A4%8D(Failure%20%26%20Recovery).md)
+   - [批写入 (Bulk Loading)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E6%89%B9%E5%86%99%E5%85%A5(Bulk%20Loading).md)
+   - [图分区 (Graph Partitioning)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E5%9B%BE%E5%88%86%E5%8C%BA%20(Graph%20Partitioning).md)
+   - [数据类型和属性序列化器配置 (Datatype and Attribute Serializer Configuration)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%B1%9E%E6%80%A7%E5%BA%8F%E5%88%97%E5%8C%96%E5%99%A8%E9%85%8D%E7%BD%AE.md) 
+   - [Hadoop-Gremlin 应用 (JanusGraph with TinkerPop’s Hadoop-Gremlin)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/Hadoop-Gremlin%E5%BA%94%E7%94%A8(JanusGraph%20with%20TinkerPop%E2%80%99s%20Hadoop-Gremlin).md)
+   - [监控 (Monitoring JanusGraph)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E7%9B%91%E6%8E%A7(Monitoring%20JanusGraph).md)
    - [从Titan迁移数据 (Migrating from Titan)](https://docs.janusgraph.org/advanced-topics/migrating/)
-   - [数据模型 (JanusGraph Data Model)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B(JanusGraph%20Data%20Model).md)
-   - [总线 (JanusGraph Bus)](https://github.com/simon824/janusgraph.cn/blob/main/JanusGraph%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/%E8%BF%9B%E9%98%B6%E4%B8%BB%E9%A2%98(Advanced%20Topics)/%E6%80%BB%E7%BA%BF(JanusGraph%20Bus).md)
+   - [数据模型 (JanusGraph Data Model)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B(JanusGraph%20Data%20Model).md)
+   - [总线 (JanusGraph Bus)](https://github.com/simon824/janusgraph.cn/blob/main/janusgraph-doc/advanced-topics/%E6%80%BB%E7%BA%BF(JanusGraph%20Bus).md)
 - 连接JanusGraph (Connecting to JanusGraph)
    - [Introduction](https://docs.janusgraph.org/connecting/)
    - [Using Java](https://docs.janusgraph.org/connecting/java/)
