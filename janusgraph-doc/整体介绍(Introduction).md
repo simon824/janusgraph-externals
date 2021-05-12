@@ -47,7 +47,7 @@ JanusGraph的设计目的是支持处理庞大的图形，这些图形需要的�
 ### Benefits of JanusGraph with Apache Cassandra
 
 <div style="float: right;">
-    <img src="cassandra-small.svg">
+    <img src="../images/cassandra-logo.svg">
 </div>
 
 -   [Continuously available](https://en.wikipedia.org/wiki/Continuous_availability)
