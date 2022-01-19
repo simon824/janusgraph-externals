@@ -14,47 +14,10 @@
 **Contributors**
 [ (How to become janusgraph-externals contributor ?)](https://github.com/simon824/janusgraph.cn/blob/main/contributor.md)
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/akiii-G"></a>
-      <a href="https://github.com/akiii-G">akiii-G</a>
-    </td>       
-    <td align="center">
-      <a href="https://github.com/ray1991a">
-      </a>
-      <a href="https://github.com/ray1991a">ray1991a</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/beiluve">
-      </a>
-      <a href="https://github.com/beiluve">beiluve</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/mengbd">
-      </a>
-      <a href="https://github.com/mengbd">mengbd</a>
-    </td>
-  </tr>
-   <tr>
-    <td align="center">
-      <a href="https://github.com/simon824"></a>
-      <a href="https://github.com/simon824">simon824</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/wendyshusband"></a>
-      <a href="https://github.com/wendyshusband">wendyshusband</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/chenjw505"></a>
-      <a href="https://github.com/chenjw505">chenjw505</a>
-    </td>  
-    <td align="center">
-      <a href="https://github.com/simon824"></a>
-      <a href="https://github.com/simon824">......</a>
-    </td>  
-  </tr>
-</table>
+Thanks to all developers!
+
+[![](https://opencollective.com/janusgraph-externals/contributors.svg?width=666)](https://github.com/simon824/janusgraph-externals/graphs/contributors)
+
 
 
 ## What is janusgraph-externals?
