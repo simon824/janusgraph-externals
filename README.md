@@ -45,7 +45,7 @@ Thanks to all developers!
 - [JanusGraph causes memory overflow problem.](https://github.com/simon824/janusgraph.cn/discussions/5) 
 
 ## Others
-*[RECOMMEND] Other awesome project about JanusGraph* 
+Other awesome project about JanusGraph* 
 - [janusgraph-visualization](https://github.com/fenglex/janusgraph-visualization)
 - [janusgraph-source-article](https://github.com/yoylee/janusgraph-source-article)
 - [janusgraph-util](https://github.com/dengziming/janusgraph-util)
